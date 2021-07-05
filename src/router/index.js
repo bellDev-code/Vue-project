@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import Class from "../views/DataBindingClass.vue";
+import Class2 from "../views/DataBindingClass2.vue";
+import Style from "../views/DataBindingStyle.vue";
+import DataBindingList from "../views/DataBindingList.vue";
+import DataBindingList2 from "../views/DataBindingList2.vue";
 
 const routes = [
   {
@@ -15,6 +20,31 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+  {
+    path: "/class",
+    name: "Class",
+    component: Class,
+  },
+  {
+    path: "/class2",
+    name: "Class2",
+    component: Class2,
+  },
+  {
+    path: "/style",
+    name: "Style",
+    component: Style,
+  },
+  {
+    path: "/dataBindingList",
+    name: "DataBindingList",
+    component: DataBindingList,
+  },
+  {
+    path: "/dataBindingList2",
+    name: "DataBindingList2",
+    component: DataBindingList2,
   },
 ];
 

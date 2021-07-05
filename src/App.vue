@@ -1,7 +1,12 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/class">Class</router-link> |
+    <router-link to="/class2">Class2</router-link> |
+    <router-link to="/style">Style</router-link> |
+    <router-link to="/dataBindingList">dataBindingList</router-link> |
+    <router-link to="/dataBindingList2">dataBindingList2</router-link>
   </div>
   <router-view />
 </template>
