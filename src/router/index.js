@@ -5,6 +5,9 @@ import Class2 from "../views/DataBindingClass2.vue";
 import Style from "../views/DataBindingStyle.vue";
 import DataBindingList from "../views/DataBindingList.vue";
 import DataBindingList2 from "../views/DataBindingList2.vue";
+import RenderingIf from "../views/DataBindingIf.vue";
+import EventBinding from "../views/EventBinding.vue";
+import Vending from "../views/Vending.vue";
 
 const routes = [
   {
@@ -45,6 +48,21 @@ const routes = [
     path: "/dataBindingList2",
     name: "DataBindingList2",
     component: DataBindingList2,
+  },
+  {
+    path: "/renderingIf",
+    name: "RenderingIf",
+    component: RenderingIf,
+  },
+  {
+    path: "/eventBinding",
+    name: "EventBinding",
+    component: EventBinding,
+  },
+  {
+    path: "/vending",
+    name: "Vending",
+    component: Vending,
   },
 ];
 

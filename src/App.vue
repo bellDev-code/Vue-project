@@ -6,7 +6,10 @@
     <router-link to="/class2">Class2</router-link> |
     <router-link to="/style">Style</router-link> |
     <router-link to="/dataBindingList">dataBindingList</router-link> |
-    <router-link to="/dataBindingList2">dataBindingList2</router-link>
+    <router-link to="/dataBindingList2">dataBindingList2</router-link> |
+    <router-link to="/renderingIf">renderingIf</router-link> |
+    <router-link to="/eventBinding">eventBinding</router-link> |
+    <router-link to="/Vending">Vending</router-link>
   </div>
   <router-view />
 </template>
