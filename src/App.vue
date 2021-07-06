@@ -9,7 +9,8 @@
     <router-link to="/dataBindingList2">dataBindingList2</router-link> |
     <router-link to="/renderingIf">renderingIf</router-link> |
     <router-link to="/eventBinding">eventBinding</router-link> |
-    <router-link to="/Vending">Vending</router-link>
+    <router-link to="/Vending">Vending</router-link> |
+    <router-link to="/Restorant">Restorant</router-link>
   </div>
   <router-view />
 </template>
