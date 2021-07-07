@@ -18,6 +18,8 @@ import Parent from "../views/Parent.vue";
 import Parent2 from "../views/Parent2.vue";
 import ProvideInject from "../views/ProvideInject.vue";
 import ModalLayout from "../views/SlotUseModalLayout.vue";
+import Login from "../views/Login.vue";
+import KakaoLogin from "../views/KakaoLogin.vue";
 
 const routes = [
   {
@@ -123,6 +125,16 @@ const routes = [
     path: "/modalLayout",
     name: "modalLayout",
     component: ModalLayout,
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
+  },
+  {
+    path: "/kakaologin",
+    name: "Kakaologin",
+    component: KakaoLogin,
   },
 ];
 

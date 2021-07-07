@@ -19,7 +19,9 @@
     <router-link to="/parent">Parent</router-link> |
     <router-link to="/parent2">Parent2</router-link> |
     <router-link to="/provideInject">ProvideInject</router-link> |
-    <router-link to="/modalLayout">modalLayout</router-link>
+    <router-link to="/modalLayout">modalLayout</router-link> |
+    <router-link to="/login">Login</router-link> |
+    <router-link to="/kakaologin">Kakaologin</router-link>
   </div>
   <router-view />
 </template>
