@@ -9,6 +9,15 @@ import RenderingIf from "../views/DataBindingIf.vue";
 import EventBinding from "../views/EventBinding.vue";
 import Vending from "../views/Vending.vue";
 import Restaurant from "../views/Restaurant.vue";
+import NestedComponent from "../views/NestedComponent.vue";
+import NestedComponent2 from "../views/NestedComponent2.vue";
+import NestedComponent3 from "../views/NestedComponent3.vue";
+import NestedComponent4 from "../views/NestedComponent4.vue";
+import NestedComponent5 from "../views/NestedComponent5.vue";
+import Parent from "../views/Parent.vue";
+import Parent2 from "../views/Parent2.vue";
+import ProvideInject from "../views/ProvideInject.vue";
+import ModalLayout from "../views/SlotUseModalLayout.vue";
 
 const routes = [
   {
@@ -69,6 +78,51 @@ const routes = [
     path: "/restaurant",
     name: "Restaurant",
     component: Restaurant,
+  },
+  {
+    path: "/nestedComponent",
+    name: "NestedComponent",
+    component: NestedComponent,
+  },
+  {
+    path: "/nestedComponent2",
+    name: "NestedComponent2",
+    component: NestedComponent2,
+  },
+  {
+    path: "/nestedComponent3",
+    name: "NestedComponent3",
+    component: NestedComponent3,
+  },
+  {
+    path: "/nestedComponent4",
+    name: "NestedComponent4",
+    component: NestedComponent4,
+  },
+  {
+    path: "/nestedComponent5",
+    name: "NestedComponent5",
+    component: NestedComponent5,
+  },
+  {
+    path: "/parent",
+    name: "Parent",
+    component: Parent,
+  },
+  {
+    path: "/parent2",
+    name: "Parent2",
+    component: Parent2,
+  },
+  {
+    path: "/provideInject",
+    name: "ProvideInject",
+    component: ProvideInject,
+  },
+  {
+    path: "/modalLayout",
+    name: "modalLayout",
+    component: ModalLayout,
   },
 ];
 

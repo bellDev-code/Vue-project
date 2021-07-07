@@ -10,7 +10,16 @@
     <router-link to="/renderingIf">renderingIf</router-link> |
     <router-link to="/eventBinding">eventBinding</router-link> |
     <router-link to="/Vending">Vending</router-link> |
-    <router-link to="/restaurant">Restorant</router-link>
+    <router-link to="/restaurant">Restorant</router-link> |
+    <router-link to="/nestedComponent">NestedComponent</router-link> |
+    <router-link to="/nestedComponent2">NestedComponent2</router-link> |
+    <router-link to="/nestedComponent3">NestedComponent3</router-link> |
+    <router-link to="/nestedComponent4">NestedComponent4</router-link> |
+    <router-link to="/nestedComponent5">NestedComponent5</router-link> |
+    <router-link to="/parent">Parent</router-link> |
+    <router-link to="/parent2">Parent2</router-link> |
+    <router-link to="/provideInject">ProvideInject</router-link> |
+    <router-link to="/modalLayout">modalLayout</router-link>
   </div>
   <router-view />
 </template>
