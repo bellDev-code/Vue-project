@@ -8,7 +8,6 @@ import DataBindingList2 from '../views/DataBindingList2.vue'
 import RenderingIf from '../views/DataBindingIf.vue'
 import EventBinding from '../views/EventBinding.vue'
 import Vending from '../views/Vending.vue'
-import Restaurant from '../views/Restaurant.vue'
 import NestedComponent from '../views/NestedComponent.vue'
 import NestedComponent2 from '../views/NestedComponent2.vue'
 import NestedComponent3 from '../views/NestedComponent3.vue'
@@ -76,11 +75,6 @@ const routes = [
     path: '/vending',
     name: 'Vending',
     component: Vending
-  },
-  {
-    path: '/restaurant',
-    name: 'Restaurant',
-    component: Restaurant
   },
   {
     path: '/nestedComponent',

@@ -1,23 +1,23 @@
-import { createStore } from "vuex";
+import { createStore } from 'vuex'
 
-import persistedstate from "vuex-persistedstate";
+import persistedstate from 'vuex-persistedstate'
 
 const store = createStore({
   state() {
     return {
-      user: {},
-    };
+      user: {}
+    }
   },
   mutations: {
     user(state, data) {
-      state.user = data;
-    },
+      state.user = data
+    }
   },
   plugins: [
     persistedstate({
-      paths: ["user"],
-    }),
-  ],
-});
+      paths: ['user']
+    })
+  ]
+})
 
-export default store;
+export default store
