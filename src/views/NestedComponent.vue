@@ -7,19 +7,19 @@
   </div>
 </template>
 <script>
-import PageTitle from "../components/PageTitle.vue";
+import PageTitle from '../components/PageTitle.vue'
 export default {
-  name: "",
+  name: '',
   components: { PageTitle },
   data() {
     return {
-      sampleData: "",
-    };
+      sampleData: ''
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

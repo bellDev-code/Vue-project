@@ -13,18 +13,18 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
       // type: "B",
-      userRole: "User",
-    };
+      userRole: 'User'
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

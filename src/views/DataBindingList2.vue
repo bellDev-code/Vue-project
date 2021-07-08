@@ -30,18 +30,18 @@
   </div>
 </template>
 <script>
-import axios from "axios";
+import axios from 'axios'
 
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
-      url: "https://64dd091b-811c-4eda-8fe3-cb394e1d7a48.mock.pstmn.io/getUserList",
+      url: 'https://64dd091b-811c-4eda-8fe3-cb394e1d7a48.mock.pstmn.io/getUserList',
       userList: [],
-      selectedGender: "",
-      searchName: "",
-    };
+      selectedGender: '',
+      searchName: ''
+    }
   },
   setup() {},
   created() {},
@@ -51,36 +51,36 @@ export default {
   unmounted() {},
   methods: {
     async getUserList() {
-      const userList = (await axios.get(this.url)).data.data;
+      const userList = (await axios.get(this.url)).data.data
 
-      if (this.selectedGender == "") {
+      if (this.selectedGender == '') {
         // 성별 전체 선택
-        if (this.searchName == "") {
+        if (this.searchName == '') {
           // 이름 입력 안함
-          this.userList = userList;
+          this.userList = userList
         } else {
           // 이름 입력함
           this.userList = userList.filter(
             (u) =>
               u.name.toLowerCase().indexOf(this.searchName.toLowerCase()) > -1
-          );
+          )
         }
       } else {
         // 성별을 남자 혹은 여자 선택한 경우
-        if (this.searchName == "") {
+        if (this.searchName == '') {
           // 이름 입력 안함
           this.userList = userList.filter(
             (u) => u.gender == this.selectedGender
-          );
+          )
         } else {
           // 이름 입력 함
           this.userList = userList.filter(
             (u) =>
               u.gender == this.selectedGender &&
               u.name.toLowerCase().indexOf(this.searchName.toLowerCase()) > -1
-          );
+          )
         }
-        console.log(this.userList);
+        console.log(this.userList)
       }
 
       // 성별로 데이터 찾기
@@ -88,9 +88,9 @@ export default {
       //   this.userList = userList;
       // } else {
       //   this.userList = userList.filter((u) => u.gender == this.selectedGender);
-    },
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>

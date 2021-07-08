@@ -4,21 +4,21 @@
   </div>
 </template>
 <script>
-import ChildComponent from "../components/ChildComponent.vue";
+import ChildComponent from '../components/ChildComponent.vue'
 export default {
-  name: "",
+  name: '',
   components: { ChildComponent },
   data() {
     return {
       num1: 5,
       isSelected: true,
-      arr: [1, 2, 3, 4],
-    };
+      arr: [1, 2, 3, 4]
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

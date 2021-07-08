@@ -15,12 +15,12 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
-      sel: "",
-    };
+      sel: ''
+    }
   },
   setup() {},
   created() {},
@@ -28,16 +28,16 @@ export default {
   unmounted() {},
   methods: {
     doSearch() {
-      console.log("조회 실행");
+      console.log('조회 실행')
     },
 
     myFunction() {
-      console.log("클릭 이벤트 발생");
+      console.log('클릭 이벤트 발생')
     },
 
     changeSelect() {
-      console.log(this.sel);
-    },
-  },
-};
+      console.log(this.sel)
+    }
+  }
+}
 </script>

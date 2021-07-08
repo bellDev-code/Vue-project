@@ -2,14 +2,14 @@
   <div><Child ref="child_component" /></div>
 </template>
 <script>
-import Child from "../components/Child.vue";
+import Child from '../components/Child.vue'
 export default {
-  name: "",
+  name: '',
   components: { Child },
   data() {
     return {
-      sampleData: "",
-    };
+      sampleData: ''
+    }
   },
   setup() {},
   created() {},
@@ -17,9 +17,9 @@ export default {
     // document.getElementById
     // this.$refs.child_component.$rets.btn.click();
     // this.$refs.child_component.myFunction();
-    this.$refs.child_component.fullName = "JongHo Lee";
+    this.$refs.child_component.fullName = 'JongHo Lee'
   },
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

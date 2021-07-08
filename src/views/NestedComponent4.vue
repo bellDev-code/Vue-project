@@ -4,23 +4,23 @@
   </div>
 </template>
 <script>
-import DataGrid from "../components/DataGrid.vue";
+import DataGrid from '../components/DataGrid.vue'
 export default {
-  name: "",
+  name: '',
   components: { DataGrid },
   data() {
     return {
-      header: ["이름", "연락처"],
+      header: ['이름', '연락처'],
       body: [
-        ["유재석", "010-2333-0000"],
-        ["김종국", "010-2222-1111"],
-      ],
-    };
+        ['유재석', '010-2333-0000'],
+        ['김종국', '010-2222-1111']
+      ]
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

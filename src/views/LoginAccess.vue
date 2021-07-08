@@ -1,28 +1,28 @@
 <template>
-  <div>{{ user.email ? "콘텐츠를 보여줍니다." : "로그인 후 사용하세요." }}</div>
+  <div>{{ user.email ? '콘텐츠를 보여줍니다.' : '로그인 후 사용하세요.' }}</div>
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
-      sampleData: "",
-    };
+      sampleData: ''
+    }
   },
   setup() {},
   computed: {
     user() {
-      return this.$store.state.user;
-    },
+      return this.$store.state.user
+    }
   },
   created() {},
   mounted() {
     if (!this.user.email) {
-      this.$router.push({ path: "/login" });
+      this.$router.push({ path: '/login' })
     }
   },
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

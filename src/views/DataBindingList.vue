@@ -34,63 +34,63 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
-      selectedDrink: "",
+      selectedDrink: '',
       drinkList: [
         {
-          drinkId: "1",
-          drinkName: "코카콜라",
+          drinkId: '1',
+          drinkName: '코카콜라',
           price: 700,
-          qty: 1,
+          qty: 1
         },
         {
-          drinkId: "2",
-          drinkName: "오렌지주스",
+          drinkId: '2',
+          drinkName: '오렌지주스',
           price: 1200,
-          qty: 1,
+          qty: 1
         },
         {
-          drinkId: "3",
-          drinkName: "커피",
+          drinkId: '3',
+          drinkName: '커피',
           price: 500,
-          qty: 1,
+          qty: 1
         },
         {
-          drinkId: "4",
-          drinkName: "물",
+          drinkId: '4',
+          drinkName: '물',
           price: 700,
-          qty: 1,
+          qty: 1
         },
         {
-          drinkId: "5",
-          drinkName: "보리차",
+          drinkId: '5',
+          drinkName: '보리차',
           price: 1200,
-          qty: 1,
+          qty: 1
         },
         {
-          drinkId: "6",
-          drinkName: "포카리",
+          drinkId: '6',
+          drinkName: '포카리',
           price: 1000,
-          qty: 1,
+          qty: 1
         },
         {
-          drinkId: "7",
-          drinkName: "뽀로로",
+          drinkId: '7',
+          drinkName: '뽀로로',
           price: 1300,
-          qty: 1,
-        },
-      ],
-    };
+          qty: 1
+        }
+      ]
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>
 
 <style scoped>

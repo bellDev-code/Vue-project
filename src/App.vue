@@ -21,7 +21,8 @@
     <router-link to="/provideInject">ProvideInject</router-link> |
     <router-link to="/modalLayout">modalLayout</router-link> |
     <router-link to="/login">Login</router-link> |
-    <router-link to="/kakaologin">Kakaologin</router-link>
+    <router-link to="/kakaologin">Kakaologin</router-link> |
+    <router-link to="/googleLogin">GoogleLogin</router-link>
   </div>
   <router-view />
 </template>

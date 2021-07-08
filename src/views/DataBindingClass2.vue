@@ -5,21 +5,21 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
-      activeClass: "active",
-      errorClass: "text-red",
-      fontClass: "font-big",
-    };
+      activeClass: 'active',
+      errorClass: 'text-red',
+      fontClass: 'font-big'
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>
 <style scoped>
 .container {

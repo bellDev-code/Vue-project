@@ -17,13 +17,13 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
-      txt1: "",
-      isEmpty: false,
-    };
+      txt1: '',
+      isEmpty: false
+    }
   },
   setup() {},
   created() {},
@@ -31,14 +31,14 @@ export default {
   unmounted() {},
   methods: {
     checkEmpty() {
-      if (this.txt1 == "") {
-        this.isEmpty = true;
+      if (this.txt1 == '') {
+        this.isEmpty = true
       } else {
-        this.isEmpty = false;
+        this.isEmpty = false
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>
 <style scoped>
 .container {

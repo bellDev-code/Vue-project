@@ -16,19 +16,19 @@
   </div>
 </template>
 <script>
-import ModalLayout from "../components/SlotModalLayout.vue";
+import ModalLayout from '../components/SlotModalLayout.vue'
 export default {
-  name: "",
-  components: { "modal-layout": ModalLayout },
+  name: '',
+  components: { 'modal-layout': ModalLayout },
   data() {
     return {
-      sampleData: "",
-    };
+      sampleData: ''
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

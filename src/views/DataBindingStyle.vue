@@ -6,20 +6,20 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: '',
   components: {},
   data() {
     return {
       styleObject: {
-        color: "red",
-        fontSize: "30px",
-      },
-    };
+        color: 'red',
+        fontSize: '30px'
+      }
+    }
   },
   setup() {},
   created() {},
   mounted() {},
   unmounted() {},
-  methods: {},
-};
+  methods: {}
+}
 </script>

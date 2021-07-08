@@ -4,14 +4,14 @@
   </div>
 </template>
 <script>
-import Child2 from "../components/Child2.vue";
+import Child2 from '../components/Child2.vue'
 export default {
-  name: "",
+  name: '',
   components: { Child2 },
   data() {
     return {
-      sampleData: "",
-    };
+      sampleData: ''
+    }
   },
   setup() {},
   created() {},
@@ -19,8 +19,8 @@ export default {
   unmounted() {},
   methods: {
     sendMessage(data) {
-      console.log(data);
-    },
-  },
-};
+      console.log(data)
+    }
+  }
+}
 </script>
