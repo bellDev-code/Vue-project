@@ -20,6 +20,8 @@ import ModalLayout from '../views/SlotUseModalLayout.vue'
 import Login from '../views/Login.vue'
 import KakaoLogin from '../views/KakaoLogin.vue'
 import Googlelogin from '../views/GoogleLogin.vue'
+import GetList from '../views/GetList.vue'
+import Person from '../views/Person.vue'
 
 const routes = [
   {
@@ -135,6 +137,16 @@ const routes = [
     path: '/googlelogin',
     name: 'Googlelogin',
     component: Googlelogin
+  },
+  {
+    path: '/getList',
+    name: 'GetList',
+    component: GetList
+  },
+  {
+    path: '/person',
+    name: 'Person',
+    component: Person
   }
 ]
 

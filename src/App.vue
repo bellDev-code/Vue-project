@@ -22,7 +22,9 @@
     <router-link to="/modalLayout">modalLayout</router-link> |
     <router-link to="/login">Login</router-link> |
     <router-link to="/kakaologin">Kakaologin</router-link> |
-    <router-link to="/googlelogin">GoogleLogin</router-link>
+    <router-link to="/googlelogin">GoogleLogin</router-link> |
+    <router-link to="/getList">getList</router-link> |
+    <router-link to="/person">Person</router-link>
   </div>
   <router-view />
 </template>
