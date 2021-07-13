@@ -24,7 +24,8 @@
     <router-link to="/kakaologin">Kakaologin</router-link> |
     <router-link to="/googlelogin">GoogleLogin</router-link> |
     <router-link to="/getList">getList</router-link> |
-    <router-link to="/person">Person</router-link>
+    <router-link to="/person">Person</router-link> |
+    <router-link to="/getImage">getImage</router-link> |
   </div>
   <router-view />
 </template>

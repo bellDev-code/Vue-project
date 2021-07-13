@@ -22,6 +22,7 @@ import KakaoLogin from '../views/KakaoLogin.vue'
 import Googlelogin from '../views/GoogleLogin.vue'
 import GetList from '../views/GetList.vue'
 import Person from '../views/Person.vue'
+import GetImage from '../views/GetImage.vue'
 
 const routes = [
   {
@@ -147,6 +148,11 @@ const routes = [
     path: '/person',
     name: 'Person',
     component: Person
+  },
+  {
+    path: '/getImage',
+    name: 'getImage',
+    component: GetImage
   }
 ]
 
